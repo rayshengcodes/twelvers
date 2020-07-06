@@ -2,7 +2,7 @@
 ============================================================================================ */
 
 .footer_area {
-    @include gradient2(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
+    @include gradient2(to right,  #070200  0%, #070200   51%, #070200   100%);
     .f_widget {
         .f_title {
             margin-bottom: 40px;
@@ -23,7 +23,7 @@
                 color: rgba(255, 255, 255, .5);
                 cursor: pointer;
                 &:hover {
-                    color: $primary-color;
+                    color: #070200 ;
                 }
             }
         }
@@ -39,7 +39,7 @@
             color: #fff;
             margin-left: -15px;
             a {
-                color: $primary-color;
+                color: #891A01; /*lee raysheng*/
             }
         }
     }
@@ -52,7 +52,7 @@
             height: 30px;
             width: 30px;
             line-height: 30px;
-            background: #4c4588;
+            background: #852103; /* social media icons */
             margin-left: 6px;
             display: inline-block;
             text-align: center;

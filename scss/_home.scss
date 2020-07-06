@@ -14,7 +14,7 @@
         width: 89%;
         top: 0;
         left: 0;
-        @include gradient2(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
+        @include gradient2(to right,  #555453 0%, #504d4d  51%, #080808  100%);
     }
 }
 
@@ -34,15 +34,15 @@
     margin-bottom: 40px;
     &:hover {
         .upcoming_title {
-            @include gradient(to right, $primary-color 0%, $primary-color2 100%);
+            @include gradient(to right,  #555453 0%, #080808  100%);
             a {
-                color: #22195e;
+                color: #501002;
             }
         }
     }
     .upcoming_title {
         position: absolute;
-        background: rgba(44, 37, 93, 0.8);
+        background: rgba(173, 3, 3, 0.8);
         top: 50%;
         width: 100%;
         text-align: center;
@@ -109,7 +109,7 @@
                     width: 100%;
                     content: "";
                     border: 2px solid transparent;
-                    @include border-gradient(90deg, #3fcaff, #a4ffb0);
+                    @include border-gradient(90deg, #f88669, #f05425);
                     border-image-slice: 1;
                 }
                 &.active,
@@ -143,12 +143,12 @@
             width: 20%;
             top: 0;
             right: -40px;
-            background: #3e3590;
+            background: #991E03 ;
             z-index: -1;
         }
     }
     .section_content {
-        @include gradient(to right, #3e3590 0%, #231a60 100%);
+        @include gradient(to right,  #555453 0%, #080808  100%);
     }
 }
 
@@ -183,7 +183,7 @@
     &:hover {
         cursor: pointer;
         .overlay {
-            background: rgba(73, 63, 157, 0.85);
+            background: rgba(153, 1, 1, 0.85);
         }
         .content {
             background: transparent;
@@ -263,7 +263,7 @@
 }
 
 .pricing_item {
-    @include gradient2(to right, #231a60 0%, #3c338d 51%, #231a60 100%);
+    @include gradient2(to right,  #a80d02 0%, #800101  51%, #460101  100%);
     text-align: center;
     margin-bottom: 40px;
     h3.p_title {
@@ -277,7 +277,7 @@
         color: #fff;
         margin: 0;
         padding: 30px;
-        background: #342b7e;
+        background: #070707 ;
     }
     ul {
         list-style: none;
@@ -317,12 +317,12 @@
     &:hover {
         .p_btn {
             .gradient_btn {
-                color: #22195e;
-                box-shadow: 0px 10px 30px rgba(130, 82, 250, 0.2);
+                color: #f8f8f8 ;
+                box-shadow: 0px 10px 30px rgba(87, 55, 37, 0.2);
                 border: 2px solid transparent;
                 &:after {
                     border-radius: 5px;
-                    @include gradient(to right, $primary-color 0%, $primary-color2 100%);
+                    @include gradient(to right,  #555453 0%, #080808  100%);
                 }
             }
         }
@@ -340,7 +340,7 @@
     .main_title {
         margin-bottom: 40px;
         h1 {
-            color: #22195e;
+            color: #991E03 ;
         }
     }
 }
@@ -349,7 +349,7 @@
     position: relative;
     h3 {
         font-size: 18px;
-        color: #22195e;
+        color: #991E03 ;
         padding-top: 40px;
         margin: 0;
     }
@@ -397,9 +397,9 @@
         position: relative;
         &:hover {
             .blog_content {
-                background: #22195e;
+                background: #991E03 ;
                 a.title {
-                    @include gradient(to right, $primary-color 0%, $primary-color2 100%);
+                    @include gradient(to right,  #555453 0%,#080808  100%);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                     @include transition();
@@ -419,7 +419,7 @@
             }
         }
         .blog_content {
-            background: #3b328b;
+            background: #991E03 ;
             padding: 40px 20px 50px;
             @include transition();
             a.title {
@@ -459,11 +459,11 @@
 ============================================================================================ */
 
 .newsletter_area {
-    @include gradient(to right, $primary-color 0%, $primary-color2 100%);
+    @include gradient(to right,  #555453 0%, #080808  100%);
     padding: 68px 0 60px;
     .newsletter_inner {
         h1 {
-            color: #22195e;
+            color: #991E03 ;
         }
         p {
             margin: 0;
@@ -486,7 +486,7 @@
             line-height: 40px;
             border-radius: 40px;
             top: 4px;
-            color: #22195e;
+            color: #991E03 ;
             box-shadow: none;
         }
     }

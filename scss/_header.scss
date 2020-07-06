@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     z-index: 9999;
-    background: #2c2172;
+    background: #070200  ;
     .navbar-brand {
         margin-right: 30px;
     }
@@ -34,7 +34,7 @@
                 &:hover,
                 &.active {
                     .nav-link {
-                        color: $primary-color;
+                        color: #891A01;
                     }
                 }
                 &.submenu {
@@ -95,9 +95,9 @@
                             }
                             &:hover {
                                 .nav-link {
-                                    background-image: -moz-linear-gradient( 0deg, rgb(77, 171, 255) 0%, rgb(98, 221, 255) 100%);
-                                    background-image: -webkit-linear-gradient( 0deg, rgb(77, 171, 255) 0%, rgb(98, 221, 255) 100%);
-                                    background-image: -ms-linear-gradient( 0deg, rgb(77, 171, 255) 0%, rgb(98, 221, 255) 100%);
+                                    background-image: -moz-linear-gradient( 0deg, rgb(110, 3, 3) 0%, rgb(172, 4, 4) 100%); /*drop down menu color */
+                                    background-image: -webkit-linear-gradient( 0deg, rgb(110, 3, 3) 0%, rgb(172, 4, 4) 100%);
+                                    background-image: -ms-linear-gradient( 0deg, rgb(110, 3, 3) 0%, rgb(172, 4, 4) 100%);
                                     color: #fff;
                                 }
                             }
@@ -129,7 +129,7 @@
             top: -70px;
             left: 0;
             right: 0;
-            background: #2c2172;
+            background: #070200  ;
             transform: translateY(70px);
             transition: transform 500ms ease, background 500ms ease;
             -webkit-transition: transform 500ms ease, background 500ms ease;

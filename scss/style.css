@@ -164,24 +164,24 @@ button:focus {
 /* Start Gradient Area css
 ============================================================================================ */
 .gradient-bg, .recent_update_inner .nav.nav-tabs li a.active, .recent_update_inner .nav.nav-tabs li a:hover, .video-play-button:before, .video-play-button:after {
-  background: -webkit-linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
-  background: -moz-linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
-  background: -o-linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
-  background: linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
+  background: -webkit-linear-gradient(90deg, #f59679 0%, #f3522a 100%);
+  background: -moz-linear-gradient(90deg, #f59679 0%, #f3522a 100%);
+  background: -o-linear-gradient(90deg, #f59679 0%, #f3522a 100%);
+  background: linear-gradient(90deg, #f59679 0%, #f3522a 100%);
 }
 
 .gradient-bg2 {
-  background: -webkit-linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
-  background: -moz-linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
-  background: -o-linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
-  background: linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
+  background: -webkit-linear-gradient(90deg, #f59679 0%, #f3522a 100%);
+  background: -moz-linear-gradient(90deg, #f59679 0%, #f3522a 100%);
+  background: -o-linear-gradient(90deg, #f59679 0%, #f3522a 100%);
+  background: linear-gradient(90deg, #f59679 0%, #f3522a 100%);
 }
 
 .gradient-color {
-  background: -webkit-linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
-  background: -moz-linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
-  background: -o-linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
-  background: linear-gradient(90deg, #3fcaff 0%, #a4ffb0 100%);
+  background: -webkit-linear-gradient(90deg, #f59679 0%, #f3522a 100%);
+  background: -moz-linear-gradient(90deg, #f59679 0%, #f3522a 100%);
+  background: -o-linear-gradient(90deg, #f59679 0%, #f3522a 100%);
+  background: linear-gradient(90deg, #f59679 0%, #f3522a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -190,11 +190,11 @@ button:focus {
 ============================================================================================ */
 .primary_btn {
   display: inline-block;
-  background: -webkit-linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
-  background: -moz-linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
-  background: -ms-linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
-  background: -o-linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
-  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+  background: -webkit-linear-gradient(to right, #f59679 0%, #f3522a 51%, #f59679 100%);
+  background: -moz-linear-gradient(to right, #f59679 0%, #f3522a 51%, #f59679 100%);
+  background: -ms-linear-gradient(to right, #f59679 0%, #f3522a 51%, #f59679 100%);
+  background: -o-linear-gradient(to right, #f59679 0%, #f3522a 51%, #f59679 100%);
+  background: linear-gradient(to right, #f59679 0%, #f3522a 51%, #f59679 100%);
   background-size: 200% auto;
   padding: 0px 35px;
   color: #222222;
@@ -455,9 +455,9 @@ button:focus {
   border-bottom: none;
 }
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-  background-image: -moz-linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
-  background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
-  background-image: -ms-linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
+  background-image: -moz-linear-gradient(0deg, #f5a794 0%, #f55b47 100%);
+  background-image: -webkit-linear-gradient(0deg, #f5a794 0%, #f55b47 100%);
+  background-image: -ms-linear-gradient(0deg, #f5a794 0%, #f55b47 100%);
   color: #fff;
 }
 @media (min-width: 992px) {
@@ -2073,7 +2073,7 @@ button:focus {
   }
 }
 b, sup, sub, u, del {
-  color: #f8b600;
+  color: #9e0101;;
 }
 
 h1 {
@@ -2204,25 +2204,25 @@ h6 {
 
 .genric-btn.primary {
   color: #fff;
-  background: #f8b600;
+  background: #9e0101;
   border: 1px solid transparent;
 }
 
 .genric-btn.primary:hover {
-  color: #f8b600;
-  border: 1px solid #f8b600;
+  color: #9e0101;;
+  border: 1px solid #9e0101;;
   background: #fff;
 }
 
 .genric-btn.primary-border {
-  color: #f8b600;
-  border: 1px solid #f8b600;
+  color: #9e0101;;
+  border: 1px solid #9e0101;;
   background: #fff;
 }
 
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #f8b600;
+  background: #9e0101;;
   border: 1px solid transparent;
 }
 
@@ -2358,7 +2358,7 @@ h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #fff;
-  border-left: 2px solid #f8b600;
+  border-left: 2px solid #9e0101;;
 }
 
 @media (max-width: 991px) {
@@ -2491,7 +2491,7 @@ h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #f8b600;
+  border: 3px solid #9e0101;;
   background: #fff;
   top: 4px;
   left: 0;
@@ -2504,7 +2504,7 @@ h6 {
 
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #f8b600;
+  color: #9e0101;;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -2517,7 +2517,7 @@ h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #f8b600;
+  color: #9e0101;;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -2530,7 +2530,7 @@ h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #f8b600;
+  color: #9e0101;;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -2602,7 +2602,7 @@ h6 {
 
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #f8b600;
+  border: 1px solid#9e0101;;
 }
 
 .single-input-accent {
@@ -2663,7 +2663,7 @@ h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #f8b600;
+  background: #9e0101;;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -2750,7 +2750,7 @@ h6 {
 }
 
 .primary-switch input:checked + label:before {
-  background: #f8b600;
+  background: #9e0101;;
 }
 
 .confirm-switch {
@@ -3114,12 +3114,12 @@ h6 {
 }
 
 .default-select .nice-select .list .option.selected {
-  color: #f8b600;
+  color:#9e0101;;
   background: transparent;
 }
 
 .default-select .nice-select .list .option:hover {
-  color: #f8b600;
+  color: #9e0101;;
   background: transparent;
 }
 
@@ -3178,12 +3178,12 @@ h6 {
 }
 
 .form-select .nice-select .list .option.selected {
-  color: #f8b600;
+  color: #9e0101;;
   background: transparent;
 }
 
 .form-select .nice-select .list .option:hover {
-  color: #f8b600;
+  color: #9e0101;;
   background: transparent;
 }
 
