@@ -34,9 +34,9 @@
     margin-bottom: 40px;
     &:hover {
         .upcoming_title {
-            @include gradient(to right,  #555453 0%, #080808  100%);
+            @include gradient(to right,  #555353 0%, #080808  100%);
             a {
-                color: #501002;
+                color: #500202;
             }
         }
     }
@@ -109,7 +109,7 @@
                     width: 100%;
                     content: "";
                     border: 2px solid transparent;
-                    @include border-gradient(90deg, #f88669, #f05425);
+                    @include border-gradient(90deg, #f86969, #f02525);
                     border-image-slice: 1;
                 }
                 &.active,
